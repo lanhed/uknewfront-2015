@@ -1,0 +1,9 @@
+{
+  "name": "uknewfront-email",
+  "version": "0.0.0",
+  "authors": [
+    "Hektor Wallin <patric.lanhed@digitaslbi.com>"
+  ],
+  "dependencies": {
+  }
+}
