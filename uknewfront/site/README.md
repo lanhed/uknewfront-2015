@@ -32,6 +32,7 @@ The two projects uses the same routine, here described as the event site folder.
 
 ###Dependencies:
 NodeJS + Grunt + Bower
+
 https://nodejs.org/en/
 Download and install
 
