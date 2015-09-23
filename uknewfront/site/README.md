@@ -14,36 +14,37 @@ npm install -g grunt-cli
 
 
 ## Install
-```
 In project directory (uknewfront/site) open a terminal and type 
->bower install
+```
+bower install
 ```
 
 ## Develop
-```
 In project directory (uknewfront/site) open a terminal and type:
->grunt server
+```
+grunt server
 ```
 
 ## Build
-```
 You’re done editing and ready to ship, great work! In the directory ‘dist’, open a terminal and type
->grunt dist
+```
+grunt dist
+```
 
 The server will give you something similar to this:
->Running "less:dev" (less) task
->File dev/styles/main.css created.
+```
+Running "less:dev" (less) task
+File dev/styles/main.css created.
 
->Running "connect:livereload" (connect) task
->Started connect web server on :::9000.
+Running "connect:livereload" (connect) task
+Started connect web server on :::9000.
 
->Running "watch" task
->Waiting...OK
-
+Running "watch" task
+Waiting...OK
+```
 Open your browser at http://localhost:9000
 
 The project uses LESS and compiles in runtime on save through Grunt. When building the projects Javascript will be minified and concatenated.
-```
 
 ###Here are two different projects:
 uknewfront-email: is a html-email, it can be used as a template if anyone wants to create new html-emails or change the current.
