@@ -4,52 +4,32 @@ The DigitasLBi UK NewFront is a collaborative thought-leadership programme aimed
 ## Prerequisites
 
 [Node](https://nodejs.org/)
+Download and install
 
 [Bower](http://bower.io/)
+npm install -g bower
 
 [Grunt](http://gruntjs.com/)
+npm install -g grunt-cli
 
 
 ## Install
 ```
-bower install
+In project directory (uknewfront/site) open a terminal and type 
+>bower install
 ```
 
 ## Develop
 ```
-grunt server
+In project directory (uknewfront/site) open a terminal and type:
+>grunt server
 ```
 
 ## Build
 ```
-grunt dist
-```
+You’re done editing and ready to ship, great work! In the directory ‘dist’, open a terminal and type
+>grunt dist
 
-## Details
-Project url: https://github.com/lanhed/uknewfront-2015
-
-###Here are two different projects:
-uknewfront-email: is a html-email, it can be used as a template if anyone wants to create new html-emails or change the current.
-uknewfront: the event site
-The two projects uses the same routine, here described as the event site folder.
-
-###Dependencies:
-NodeJS + Grunt + Bower
-
-https://nodejs.org/en/
-Download and install
-
-http://gruntjs.com/
-npm install -g grunt-cli
-
-http://bower.io/
-npm install -g bower
-
-###Install the project: 
-In project directory (uknewfront/site) open a terminal and type ‘bower install'
-
-###Run server:
-In project directory (uknewfront/site) open a terminal and type 'grunt server’
 The server will give you something similar to this:
 >Running "less:dev" (less) task
 >File dev/styles/main.css created.
@@ -62,10 +42,13 @@ The server will give you something similar to this:
 
 Open your browser at http://localhost:9000
 
-###Build distribution files
-You’re done editing and ready to ship, great work! In the directory ‘dist’, open a terminal and type 'grunt dist’.
-
 The project uses LESS and compiles in runtime on save through Grunt. When building the projects Javascript will be minified and concatenated.
+```
+
+###Here are two different projects:
+uknewfront-email: is a html-email, it can be used as a template if anyone wants to create new html-emails or change the current.
+uknewfront: the event site
+The two projects uses the same routine, here described as the event site folder.
 
 ###Folder structure
 dev: this is the development environment, all changes to code goes here
