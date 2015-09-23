@@ -72,9 +72,7 @@ node_modules: the NodeJS modules used by this project is stored here. Don’t to
 The project is very simple, basically it contains:
 
 1. A HTML-file (index.html)
-
 2. A LESS-file (styles/main.less)
-
 3. A JavaScript-file (scripts/main.js)
 
 On top of that we have some bootstrap styles and javascript, but don’t worry about that.
