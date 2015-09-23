@@ -70,27 +70,30 @@ node_modules: the NodeJS modules used by this project is stored here. Don’t to
 
 ###The Project files
 The project is very simple, basically it contains:
-A HTML-file (index.html)
-A LESS-file (styles/main.less)
-A JavaScript-file (scripts/main.js)
+1. A HTML-file (index.html)
+2. A LESS-file (styles/main.less)
+3. A JavaScript-file (scripts/main.js)
+
 On top of that we have some bootstrap styles and javascript, but don’t worry about that.
 
 The HTML file is built up in sections, editing those sections is simple.
 
 **To add a new speaker, scroll down to the speaker section and find these three things to edit/add**
-•The speaker heads are lined up in rows with four columns in each row
 
-•If you’re adding a new speaker, make sure you change the data-id to the next in iteration
+* The speaker heads are lined up in rows with four columns in each row
 
-•Next is the speaker list, kind of the same thing as the heads, but instead of images we display texts here
+* If you’re adding a new speaker, make sure you change the data-id to the next in iteration
 
-•Next is to add or edit the speaker content below the speaker list. Pay attention to data-speaker-id, it must be the same id you gave the data-id above
+* Next is the speaker list, kind of the same thing as the heads, but instead of images we display texts here
 
-•The naming convention for speaker images is: Surename-Familyname.jpg
+* Next is to add or edit the speaker content below the speaker list. Pay attention to data-speaker-id, it must be the same id you gave the data-id above
+
+* The naming convention for speaker images is: Surename-Familyname.jpg
 
 **The Think section is a bit easier to update or add new content to.**
-•Add/edit the list of links
 
-•Add/edit the HTML-file with the Think-person’s content. Naming convention: surenamefamilyname.html
+* Add/edit the list of links
 
-•The naming convention for Think person's images is: Surename-Familyname-white.jpg (as it has white background instead of black)
+* Add/edit the HTML-file with the Think-person’s content. Naming convention: surenamefamilyname.html
+
+* The naming convention for Think person's images is: Surename-Familyname-white.jpg (as it has white background instead of black)
