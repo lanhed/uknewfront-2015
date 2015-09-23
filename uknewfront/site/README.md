@@ -47,8 +47,10 @@ Open your browser at http://localhost:9000
 The project uses LESS and compiles in runtime on save through Grunt. When building the projects Javascript will be minified and concatenated.
 
 ###Here are two different projects:
-uknewfront-email: is a html-email, it can be used as a template if anyone wants to create new html-emails or change the current.
-uknewfront: the event site
+
+1. uknewfront-email: is a html-email, it can be used as a template if anyone wants to create new html-emails or change the current.
+2. uknewfront: the event site
+
 The two projects uses the same routine, here described as the event site folder.
 
 ###Folder structure
