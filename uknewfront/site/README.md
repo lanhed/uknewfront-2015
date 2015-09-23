@@ -25,12 +25,6 @@ In project directory (uknewfront/site) open a terminal and type:
 grunt server
 ```
 
-## Build
-You’re done editing and ready to ship, great work! In project directory (uknewfront/site) open a terminal and type 
-```
-grunt dist
-```
-
 The server will give you something similar to this:
 ```
 Running "less:dev" (less) task
@@ -45,6 +39,12 @@ Waiting...OK
 Open your browser at http://localhost:9000
 
 The project uses LESS and compiles in runtime on save through Grunt. When building the projects Javascript will be minified and concatenated.
+
+## Build
+You’re done editing and ready to ship, great work! In project directory (uknewfront/site) open a terminal and type 
+```
+grunt dist
+```
 
 ###Here are two different projects:
 
