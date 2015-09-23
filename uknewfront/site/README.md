@@ -1,7 +1,5 @@
-# Shut
-Shooter game
-
-Supported controls: Mouse + Keyboard, Gamepad
+# Newfront 2015
+The DigitasLBi UK NewFront is a collaborative thought-leadership programme aimed at stimulating creativity within the branded content marketplace. 
 
 ## Prerequisites
 [Node](https://nodejs.org/)
@@ -11,15 +9,15 @@ Supported controls: Mouse + Keyboard, Gamepad
 
 ## install
 ```
-npm install
+bower install
 ```
 
 ## Develop
 ```
-npm run dev
+grunt server
 ```
 
 ## build
 ```
-npm run build
+grunt dist
 ```

@@ -2,7 +2,7 @@
   "name": "uknewfront",
   "version": "0.0.0",
   "authors": [
-    "Hektor Wallin <patric.lanhed@digitaslbi.com>"
+    "Patric Lanhed <patric.lanhed@digitaslbi.com>"
   ],
   "dependencies": {
     "jquery": "~2.1.4",
