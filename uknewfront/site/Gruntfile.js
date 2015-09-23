@@ -26,8 +26,6 @@ module.exports = function(grunt) {
           '<%= app.dev %>/**/*.html',
           '<%= app.dev %>/scripts/**/*.js',
           '<%= app.dev %>/styles/**/*.css',
-          '<%= app.dev %>/data/**/*.json',
-          '<%= app.dev %>/templates/**/*.hbs'
         ]
       }
     },
@@ -116,24 +114,6 @@ module.exports = function(grunt) {
         }]
       },
 
-      distData: {
-        files: [{
-          expand: true,
-          cwd: '<%= app.dev %>/data',
-          src: [ '**/*' ],
-          dest: '<%= app.dist %>/data'
-        }]
-      },
-
-      distFonts: {
-        files: [{
-          expand: true,
-          cwd: '<%= app.dev %>/fonts',
-          src: [ '**/*' ],
-          dest: '<%= app.dist %>/fonts'
-        }]
-      },
-
       distStyles: {
         files: [{
           expand: true,
@@ -182,9 +162,7 @@ module.exports = function(grunt) {
     'copy:distImages',
     'copy:distHtml',
     'copy:distRequire',
-    'copy:distData',
-    'copy:distStyles',
-    'copy:distFonts'
+    'copy:distStyles'
   ]);
 
   grunt.registerTask('default', [

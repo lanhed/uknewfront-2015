@@ -26,7 +26,7 @@ grunt server
 ```
 
 ## Build
-You’re done editing and ready to ship, great work! In the directory ‘dist’, open a terminal and type
+You’re done editing and ready to ship, great work! In project directory (uknewfront/site) open a terminal and type 
 ```
 grunt dist
 ```
