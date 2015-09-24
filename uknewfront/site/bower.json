@@ -5,7 +5,7 @@
     "Patric Lanhed <patric.lanhed@digitaslbi.com>"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
+    "jquery": "~1.11.3",
     "requirejs": "~2.1.8",
     "requirejs-text": "~2.0.10"
   }
